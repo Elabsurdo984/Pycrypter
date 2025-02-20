@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pycrypter",
+    name="cryptpy",
     version="1.0.0",
     packages=find_packages(),
     install_requires = [
-        "pycryptodome>=3.21.0"
+        "pycryptodome>=3.21.0",
         "numpy>=2.0.2"
     ],
     author="Elabsurdo984",
