@@ -17,19 +17,19 @@ __all__ = [
     'MD5Hash'
 ]
 
-from Ciphers.binary import Binary
-from Ciphers.caesar import CaesarCipher
-from Ciphers.transposition import TranspositionCipher
-from Ciphers.chacha20 import ChaCha20Cipher
-from Ciphers.salsa20 import Salsa20Cipher
-from Ciphers.hill import HillCipher
-from Ciphers.monoalphabetic import MonoalphabeticCipher
-from Ciphers.rc4 import RC4Cipher
-from Ciphers.rc5 import RC5Cipher
-from Ciphers.rc6 import RC6Cipher
-from Ciphers.enigma import EnigmaMachine
-from Ciphers.des import DESCipher
-from Ciphers.polyalphabetic import PolyalphabeticCipher
-from Hash.md5 import MD5Hash
+from Ciphers import Binary
+from Ciphers import CaesarCipher
+from Ciphers import TranspositionCipher
+from Ciphers import ChaCha20Cipher
+from Ciphers import Salsa20Cipher
+from Ciphers import HillCipher
+from Ciphers import MonoalphabeticCipher
+from Ciphers import RC4Cipher
+from Ciphers import RC5Cipher
+from Ciphers import RC6Cipher
+from Ciphers import EnigmaMachine
+from Ciphers import DESCipher
+from Ciphers import PolyalphabeticCipher
+from Hash import MD5Hash
 
 
