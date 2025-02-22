@@ -11,7 +11,7 @@ __all__ = [
     'RC6Cipher',
     'EnigmaMachine',
     'DESCipher',
-    'PolyalphabeticCipher',
+    'PolyalphabeticCipher'
 ]
 
 from . import Binary
