@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="crypting",
-    version="1.5.7",
+    version="1.5.8",
     packages=find_packages(),
     install_requires = [
         "pycryptodome>=3.21.0",

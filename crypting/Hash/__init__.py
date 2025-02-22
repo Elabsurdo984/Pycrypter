@@ -2,4 +2,4 @@ __all__ = [
     "MD5Hash"
 ]
 
-from md5 import MD5Hash
+from . import MD5Hash
